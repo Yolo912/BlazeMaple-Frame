@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>BlazeMaple-dependencies</artifactId>
+        <groupId>com.blazemaple</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+
+    <artifactId>BlazeMaple-core</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>BlazeMaple-core</name>
+    <packaging>pom</packaging>
+    <description>Common Components</description>
+
+    <modules>
+        <module>BlazeMaple-core-starter</module>
+        <module>BlazeMaple-core-mybatisplus</module>
+        <module>BlazeMaple-core-log</module>
+        <module>BlazeMaple-core-swagger</module>
+        <module>BlazeMaple-core-web</module>
+    </modules>
+
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.blazemaple</groupId>
+                <artifactId>BlazeMaple-core-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.blazemaple</groupId>
+                <artifactId>BlazeMaple-core-mybatisplus</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.blazemaple</groupId>
+                <artifactId>BlazeMaple-core-log</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.blazemaple</groupId>
+                <artifactId>BlazeMaple-core-swagger</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.blazemaple</groupId>
+                <artifactId>BlazeMaple-core-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
