@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/BlazeMaple-core/pom.xml" />
         <option value="$PROJECT_DIR$/BlazeMaple-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>

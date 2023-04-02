@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BlazeMaple-core-starter" />
         <module name="BlazeMaple-core-log" />
+        <module name="BlazeMaple-core-web" />
         <module name="BlazeMaple-core-mybatisplus" />
         <module name="BlazeMaple-core-swagger" />
       </profile>
