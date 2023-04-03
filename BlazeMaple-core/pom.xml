@@ -22,6 +22,7 @@
         <module>BlazeMaple-core-log</module>
         <module>BlazeMaple-core-swagger</module>
         <module>BlazeMaple-core-web</module>
+        <module>BlazeMaple-core-tool</module>
     </modules>
 
 
@@ -51,6 +52,11 @@
             <dependency>
                 <groupId>com.blazemaple</groupId>
                 <artifactId>BlazeMaple-core-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.blazemaple</groupId>
+                <artifactId>BlazeMaple-core-tool</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
